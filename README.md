@@ -64,3 +64,45 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+Name: Borys Lopez <br/>
+Email: boryslopez1976@gmail.com <br/>
+
+1.Navega al directorio del proyecto:
+
+cd tu-proyecto
+Instala las dependencias de Composer:
+
+composer install
+
+2.Copia el archivo de configuración de entorno:
+
+cp .env.example .env
+
+3.Genera una nueva clave de aplicación:
+
+php artisan key:generate
+
+4.Configura tu archivo .env con la información de la base de datos y otros detalles de configuración.
+
+Ejecuta las migraciones de la base de datos para crear las tablas:
+
+php artisan migrate
+
+5.Ejecuta los seeders 
+
+php artisan db:seed --class=UsersSeeder
+
+6.Instala las dependencias de Node.js:
+
+npm install
+
+7.Compila los assets de JavaScript y CSS:
+
+npm run dev
+
+8.Inicia el servidor de desarrollo de Laravel:
+
+9.php artisan serve
+
+Abre tu navegador y visita http://localhost:8000 para ver la aplicación en funcionamiento.
